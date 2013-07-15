@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+	background-color:#393E47;	
+}
+
+#wrapper {
+	width:900px;
+	min-height:500px;
+	display:block;
+	background-color:#FFF;
+	border-left:10px solid #5C6169;
+	border-right:10px solid #5C6169;
+	margin:0 auto;
+	padding:100px 25px;
+	color:#5C6169;
+	overflow:hidden;
+}
+
+#wrapper #head {
+	width:100%;
+	overflow:hidden;
+}
+
+	#wrapper #head h1, #wrapper #head h6 {
+		width:51%;
+		float:left;
+	}
+	
+	#wrapper #head #confirmation {
+		width:45%;
+		display:block;
+		float:right;
+		font-weight:800;
+		padding:10px;
+		background-color:#39E01B;
+		color:#FFF;
+	}
+
+#wrapper .line {
+	height:50px;	
+}
+
+#wrapper a {
+	font-size:13px;
+	margin-left:20px;
+}
+
+#wrapper a:hover {
+	text-decoration:underline;
+}
+
+#wrapper .tall {
+	height:100px;
+	text-align:justify;
+	font-size:14px;
+}
+
+	#wrapper #leftColumn .tall {
+		width:370px;
+		float:right;
+		clear:right;
+	}
+
+	#wrapper textarea {
+		width:400px;
+		height:80px;
+		resize:none;
+	}
+
+	#wrapper span {
+		color:red;
+		font-weight:900;
+		margin:0 5px;
+	}
+	
+	#wrapper h1 {
+		margin-bottom:0px;
+	}
+
+	#wrapper h6 {
+		margin-top:5px;
+		margin-bottom:50px;
+	}
+
+	#wrapper #leftColumn {
+		width:400px;
+		text-align:right;
+		float:left;
+	}	
+		
+	#wrapper #rightColumn {
+		width:400px;
+		text-align:left;
+		float:left;
+		margin-left:50px;
+	}
+	
+		#wrapper #rightColumn label {
+			margin-left:5px;
+			margin-right:40px;
+		}
+		
+		#wrapper #rightColumn .centered {
+			text-align:center;
+		}
+		
+		#wrapper #rightColumn .send {
+			margin:10px auto;
+			font-size:32px;
+			padding:0 10px;
+			color:#2C3139;
+		}
+		

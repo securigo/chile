@@ -1,0 +1,37 @@
+#box7 {
+width:100%;
+height:220px;
+display:block;
+text-align:center;
+background-color:#BB8800;
+margin-bottom:50px;
+}
+
+#box7 #main {
+width:60%;
+height:100%;
+display:block;
+text-align:center;
+background-color:#F0A000;
+background-image:url(../images/backstar.png);
+background-repeat:no-repeat;
+background-position:center;
+cursor:pointer;
+text-shadow:1px 1px 4px #996600;
+margin:0 auto;
+overflow:hidden;
+}
+
+#box7 #main:hover {
+background-color:#996600;
+background-image:url(../images/backstar2.png);
+text-shadow:0px 0px 20px #FFF;
+}
+
+	#box7 #main h1 {
+	margin:50px 0 0 0;
+	font-size:90px;
+	font-weight:900;
+	text-shadow:inherit;
+	color:#FFF;
+	}

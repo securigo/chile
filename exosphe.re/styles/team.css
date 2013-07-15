@@ -1,0 +1,180 @@
+header {
+z-index:99;
+}
+
+#wrapper {
+width:100%;
+min-width:1000px;
+background-color:#5C6169;
+color:#FFF;
+text-align:center;
+overflow:hidden;
+margin-bottom:50px;
+}
+
+	#wrapper a {
+	color:inherit;
+	font-style:italic;
+	opacity:0.8;
+	
+	z-index:0;
+	}
+	
+	#wrapper a:hover {
+	text-decoration:underline;
+	opacity:1;
+	}
+
+#topText {
+width:900px;
+margin:20px auto;
+text-align:left;
+margin-top:83px;
+font-size:14px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+	#topText h1 {
+	font-size:54px;
+	}
+
+	#topText p {
+	width:600px;
+	line-height:20px;
+	margin-left:100px;
+	}
+	
+#members {
+width:100%;
+background-color:#1F6AFF;
+text-align:center;
+overflow:hidden;
+margin:0;
+}
+
+	#members div {
+	width:80%;
+	min-width:600px;
+	text-align:left;
+	font-size:42px;
+	margin:20px auto;
+	font-weight:600;
+	}
+
+.member {
+width:100%;
+background-color:#1F6AFF;
+margin:0;
+overflow:hidden;
+clear:both;
+}
+
+.short {
+width:450px;
+clear:none;
+background-color:transparent;
+float:left;
+}
+
+.lefter {
+float:left;
+clear:left;
+}
+
+.righter {
+float:right;
+clear:right;
+}
+
+.darks {
+background-color:#174FBD;
+}
+
+.separator {
+width:100%;
+height:10px;
+display:block;
+background-color:#111;
+clear:both;
+}
+	
+	.member .in {
+	width:80%;
+	min-width:800px;
+	margin:20px auto;
+	overflow:hidden;
+	}
+		.member .in .photo, .fellow .photo {
+		width:130px;
+		height:130px;
+		display:block;
+		background-color:#FFF;
+		float:left;
+		margin-right:20px;
+		}
+
+		.member .in .text {
+		width:70%;
+		font-size:14px;
+		float:left;
+		text-align:left;
+		}
+		
+		.member .in .text h4 {
+		font-size:18px;
+		}
+		
+		.member .in .text h4, .member .in .text h5 {
+		margin:0;
+		}
+		
+		.member .p01 {background-image:url(../images/photos/photo01.jpg);}
+		.member .p02 {background-image:url(../images/photos/photo02.jpg);}
+		.member .p03 {background-image:url(../images/photos/photo03.jpg);}
+		.member .p04 {background-image:url(../images/photos/photo04.jpg);}
+		.member .p05 {background-image:url(../images/photos/photo05.jpg);}
+		.member .p06 {background-image:url(../images/photos/photo06.jpg);}
+		.member .p07 {background-image:url(../images/photos/photo07.jpg);}
+		.member .p08 {background-image:url(../images/photos/photo08.jpg);}
+		.member .p09 {background-image:url(../images/photos/photo09.jpg);}
+		.member .p10 {background-image:url(../images/photos/photo10.jpg);}
+		.member .p11 {background-image:url(../images/photos/photo11.jpg);}
+		.member .p12 {background-image:url(../images/photos/photo12.jpg);}
+		.member .p13 {background-image:url(../images/photos/photo13.jpg);}
+		.member .p14 {background-image:url(../images/photos/photo14.jpg);}
+		.member .p15 {background-image:url(../images/photos/photo15.jpg);}
+		.member .p16 {background-image:url(../images/photos/photo16.jpg);}
+		.member .p17 {background-image:url(../images/photos/photo17.jpg);}
+		.member .p18 {background-image:url(../images/photos/photo18.jpg);}
+		.p19 {background-image:url(../images/photos/photo19.jpg);}
+		.p20 {background-image:url(../images/photos/photo20.jpg);}
+		.p22 {background-image:url(../images/photos/photo22.jpg);}
+		.p23 {background-image:url(../images/photos/photo23.png);}
+.row {
+width:100%;
+background-color:#396FDF;
+text-align:left;
+overflow:hidden;
+padding-bottom:20px;
+}
+
+	.row .inner {
+	width:800px;
+	margin:20px 0 0 3%;
+	text-align:center;
+	}
+	
+		.row .inner h4, .row .inner h5 {
+		margin:0;
+		}
+	
+		.row .inner .fellow {
+		width:300px;
+		float:left;
+		}
+		
+		.row .inner .fellow .photo {
+		float:none;
+		margin:10px auto;
+		}

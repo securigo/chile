@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+#block4 {
+	width:100%;
+	height:400px;
+	display:block;
+	background-color:#FFCF70;
+	text-align:center;
+	color:#996600;
+}
+
+	#block4 #triangle {
+		width:0px;
+		height:0px;
+		border-style:solid;
+		border-width:45px 50px 0 50px;
+		border-color:#5890FF transparent transparent transparent;
+		margin:0 auto 40px auto;
+	}
+	
+	#block4 #topText {
+		width:75%;
+		min-width:950px;
+		text-align:left;
+		margin:0 auto 10px auto;
+	}
+	
+		#block4 h2 {
+			font-size:48px;
+			font-weight:lighter;
+			margin:0 0 -15px 2%;	
+		}
+		
+		#block4 h1 {
+			font-size:64px;
+			font-weight:normal;
+			margin:0 0 0 2%;
+		}
+	
+	#block4 #bottomBox {
+		width:100%;
+		height:200px;
+		display:block;
+		background-color:#996600;
+		color:#FFF;
+	}
+	
+		#block4 #bottomBox #upperLine {
+			width:100%;
+			height:100px;
+			background-color:#C48300;
+		}
+		
+			#block4 #bottomBox #upperLine #leftBox {
+				width:50%;
+				height:100px;
+				display:block;
+				background-color:#F0A000;
+				float:left;
+				text-align:right;
+			}
+			
+			#block4 #bottomBox #upperLine #rightBox {
+				width:50%;
+				height:100px;
+				display:block;
+				float:right;
+				text-align:left;
+			}
+			
+		#block4 #bottomBox .inner {
+		width:500px;
+		height:85px;
+		padding-top:15px;
+		margin:0 auto;
+		}
+		
+			#block4 #bottomBox .toRight {
+			float:right;
+			}
+			
+			#block4 #bottomBox .toLeft {
+			float:left;
+			margin-left:20px;
+			}
+		
+		#block4 #bottomBox .long {
+		width:540px;
+		}
+		
+			#block4 #bottomBox .inner .number {
+			font-size:81px;
+			font-weight:900;
+			float:left;
+			margin-right:10px;
+			margin-top:-15px;
+			}
+			
+			#block4 #bottomBox .inner .topText {
+			font-size:24px;
+			font-weight:bold;
+			float:left;
+			margin-top:4px;
+			margin-bottom:-4px;
+			}
+						
+				#block4 #bottomBox .long .topText, #block4 #bottomBox .toLeft .topText {
+				font-weight:300;
+				}
+			
+			#block4 #bottomBox .inner .bottomText {
+			font-size:24px;
+			font-weight:300;
+			float:left;
+			}
+			
+				#block4 #bottomBox .long .bottomText, #block4 #bottomBox .toLeft .bottomText {
+				font-weight:bold;
+				}

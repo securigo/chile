@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+#block5 {
+	width:100%;
+	height:650px;
+	display:block;
+	background-image:url(../images/santiago.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center left;
+	color:#FFF;
+}
+
+	#block5 #triangle {
+		width:0px;
+		height:0px;
+		border-style:solid;
+		border-width:45px 50px 0 50px;
+		border-color:#FFCF70 transparent transparent transparent;
+		margin:0 auto;
+	}
+	
+	#block5 #topBox {
+		width:750px;
+		height:150px;
+		display:block;
+		background-color:#1F6AFF;
+		background-color:rgba(31, 106, 255, 0.9);
+		float:right;
+		margin-top:150px;
+		text-align:left;
+	}
+	
+		#block5 #topBox .t1, #block5 #topBox .t2, #block5 #topBox .t3 {
+			width:580px;
+			margin:0 0 0 20px;
+			text-align:right;
+			float:left;
+		}
+		
+		#block5 #topBox .t1 {
+			font-size:48px;
+			margin-top:24px;
+			font-weight:800;
+		}
+		
+		#block5 #topBox .t2 {
+			font-size:32px;
+			font-weight:400;
+			margin-top:-5px;
+		}
+	
+	#block5 #bottomBox {
+		width:690px;
+		height:190px;
+		display:block;
+		background-color:#0744BA;
+		background-color:rgba(7, 68, 186, 0.9);
+		float:right;
+		clear:right;
+	}
+	
+		#block5 #bottomBox ul li {
+		height:30px;
+		}
+		
+		#block5 #bottomBox div {
+			margin-top:20px;
+			margin-left:190px;
+			font-size:13px;
+			font-style:italic;
+			color:#CCF;
+			cursor:pointer;
+		}
+		
+		#block5 #bottomBox div:hover {
+			color:#FFF;
+			text-decoration:underline;
+		}
+
+	#block5 #download {
+	text-align:center;
+	font-style:italic;
+	font-weight:normal;
+	margin-top:10px;
+	opacity:0.8;
+	z-index:0;
+	}
+
+	#block5 #download:hover {
+	opacity:1;
+	}
+	
+		#block5 #download .txt {
+		width:600px;
+		color:#FFF;
+		margin:0;
+		cursor:pointer;
+		font-size:24px;
+		text-align:left;
+		font-weight:800;
+		text-shadow:1px 1px 0px #0C3D9C;
+		}
+		
+			#block5 #download .txt .img {
+			width:29px;
+			height:28px;
+			display:block;
+			background-image:url('../images/download-btn.png');
+			float:left;
+			margin:0;
+			margin-right:10px;
+			padding:0;
+			}
+		
+		#block5 #download div:hover {
+			color:#FFF;
+			text-decoration:underline;
+		}

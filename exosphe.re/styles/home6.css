@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+#block6 {
+	width:100%;
+	height:350px;
+	display:block;
+	border-top:32px solid #A8AFBA;
+	background-color:#5C6169;
+	color:#FFF;
+}
+
+	#block6 #main {
+		width:100%;
+		height:220px;
+		display:block;
+		background-color:#F0A000;
+		border:10px solid #393E47;
+		border-width:10px 0 10px 0;
+		margin-top:55px;
+	}
+	
+		#block6 #main #leftBox {
+			width:40%;
+			height:100%;
+			display:block;
+			background-color:#0744BA;
+			text-align:right;
+			overflow:hidden;
+			float:left;
+		}
+		
+			#block6 #main #leftBox div {
+				width:465px;
+				font-weight:bold;
+				margin-top:27px;
+				text-align:left;
+				float:right;
+				padding-right:10px;
+			}
+			
+				#block6 #main #leftBox div span {
+					font-size:12px;
+					font-style:normal;
+					margin-left:10px;
+					text-decoration:underline;
+					opacity:0.5;
+					cursor:pointer;
+				}
+				
+				#block6 #main #leftBox div span:hover {
+					opacity:1;
+				}
+			
+				#block6 #main #leftBox div p {
+					width:465px;
+					font-weight:bold;
+					font-size:20px;
+					font-style:italic;
+					line-height:40px;
+					margin-left:10px;
+				}
+				
+		#block6 #main #rightBox {
+		width:60%;
+		height:100%;
+		display:block;
+		text-align:center;
+		float:right;
+		background-image:url(../images/backstar.png);
+		background-repeat:no-repeat;
+		background-position:center;
+		cursor:pointer;
+		text-shadow:1px 1px 4px #996600;
+		}
+		
+		#block6 #main #rightBox:hover {
+		background-color:#996600;
+		background-image:url(../images/backstar2.png);
+		text-shadow:0px 0px 10px #FFF;
+		}
+		
+			#block6 #main #rightBox h1 {
+			margin:40px 0 0 0;
+			font-size:72px;
+			font-weight:900;
+			text-shadow:inherit;
+			}
+			
+			#block6 #main #rightBox:hover h1 {
+			font-size:72px;
+			}
+			
+			#block6 #main #rightBox .bar {
+			width:100%;
+			height:27px;
+			padding-top:5px;
+			display:block;
+			background-color:#996600;
+			margin-top:10px;
+			font-weight:300;
+			}
+			
+			#block6 #main #rightBox:hover .bar {
+			background-color:#FFCF70;
+			color:#996600;
+			}
+			
+				#block6 #main #rightBox .bar span {
+				font-weight:600;
+				}
